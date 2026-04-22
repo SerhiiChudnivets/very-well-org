@@ -1,9 +1,9 @@
 {
-  "name": "VeryWell Casino",
+  "name": "very-well.org",
   "site_name": null,
   "html_head": null,
   "url": "very-well.org",
-  "template": "luxury-casino",
+  "template": "tupchiy",
   "language_code": "en",
   "allow_indexing": false,
   "redirect_404s_to_homepage": true,
@@ -60,8 +60,8 @@
   },
   "header_menu": [],
   "footer_menu": [],
-  "_generated_at": "2026-04-22T14:22:24.757Z",
+  "_generated_at": "2026-04-22T15:00:18.353Z",
   "_version": "1.0.0",
-  "_last_deploy": "2026-04-22T14:22:25.305Z",
-  "_deploy_trigger": "ymzu4"
+  "_last_deploy": "2026-04-22T15:00:19.028Z",
+  "_deploy_trigger": "rlnnlv"
 }
