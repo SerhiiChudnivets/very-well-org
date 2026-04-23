@@ -11,10 +11,10 @@
   "content": null,
   "pages": [],
   "faq_schema": null,
-  "hero_title": null,
-  "hero_subtitle": null,
-  "hero_badge": null,
-  "cta_text": null,
+  "hero_title": "la la la ",
+  "hero_subtitle": "blablabla",
+  "hero_badge": "heloooo",
+  "cta_text": "click click",
   "accent_color": "#d4af37",
   "tagline": null,
   "features_list": "гпгпгшп\nашпоупп",
@@ -60,8 +60,8 @@
   },
   "header_menu": [],
   "footer_menu": [],
-  "_generated_at": "2026-04-23T11:39:40.234Z",
+  "_generated_at": "2026-04-23T11:41:38.783Z",
   "_version": "1.0.0",
-  "_last_deploy": "2026-04-23T11:39:40.714Z",
-  "_deploy_trigger": "qi60sr"
+  "_last_deploy": "2026-04-23T11:41:39.246Z",
+  "_deploy_trigger": "3n5ad"
 }
