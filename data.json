@@ -17,7 +17,7 @@
   "cta_text": null,
   "accent_color": "#d4af37",
   "tagline": null,
-  "features_list": null,
+  "features_list": "гпгпгшп\nашпоупп",
   "footer_text": null,
   "popup_text": null,
   "gpt_prompt": null,
@@ -60,8 +60,8 @@
   },
   "header_menu": [],
   "footer_menu": [],
-  "_generated_at": "2026-04-22T15:36:41.490Z",
+  "_generated_at": "2026-04-23T11:39:40.234Z",
   "_version": "1.0.0",
-  "_last_deploy": "2026-04-22T15:36:42.149Z",
-  "_deploy_trigger": "1xksd8"
+  "_last_deploy": "2026-04-23T11:39:40.714Z",
+  "_deploy_trigger": "qi60sr"
 }
