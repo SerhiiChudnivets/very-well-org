@@ -181,12 +181,12 @@
   "accent_color": "#d4af37",
   "main_background": "#000031",
   "secondary_background": "#00001d",
-  "button_background": "#ffd600",
+  "button_background": "#0255c2",
   "button_text_color": "#fffffb",
   "text_color": "#fffffb",
   "color_highlight_text": "#fffffb",
   "color_main_btn_text": "#3a3a3a",
-  "cta_background": "#0255c2",
+  "cta_background": "#ffd600",
   "logo": {
     "url": "/uploads/46de274738aafcd72ef5f54b307d00a5.webp"
   },
@@ -340,9 +340,9 @@
       "question": "What is the minimum withdrawal limit at VeryWell Casino?"
     }
   ],
-  "_generated_at": "2026-10-19T13:21:08.153Z",
+  "_generated_at": "2026-10-19T13:25:22.925Z",
   "_version": "1.0.0",
   "content_alt": "verywell register",
-  "_last_deploy": "2026-10-19T13:21:08.747Z",
-  "_deploy_trigger": "pwvls4"
+  "_last_deploy": "2026-10-19T13:25:23.556Z",
+  "_deploy_trigger": "097mqg"
 }
