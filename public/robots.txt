@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /trackback/
+Disallow: /play/*
+
+Sitemap: https://very-well.org/sitemap.xml
