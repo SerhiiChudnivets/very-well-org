@@ -179,14 +179,14 @@
   "home_name": "VeryWell Casino",
   "subdomains": null,
   "accent_color": "#d4af37",
-  "main_background": null,
-  "secondary_background": null,
-  "button_background": null,
-  "button_text_color": null,
-  "text_color": null,
-  "color_highlight_text": null,
-  "color_main_btn_text": null,
-  "cta_background": null,
+  "main_background": "#000031",
+  "secondary_background": "#00001d",
+  "button_background": "#ffd600",
+  "button_text_color": "#fffffb",
+  "text_color": "#fffffb",
+  "color_highlight_text": "#fffffb",
+  "color_main_btn_text": "#3a3a3a",
+  "cta_background": "#0255c2",
   "logo": {
     "url": "/uploads/46de274738aafcd72ef5f54b307d00a5.webp"
   },
@@ -196,9 +196,70 @@
   "main_background_img": {
     "url": "/uploads/6c89f11456f4519a0048d9f7537003b9.webp"
   },
-  "header_menu": null,
-  "footer_menu": null,
-  "footer_images": null,
+  "header_menu": [
+    {
+      "link": "/play/",
+      "label": "Log In",
+      "submenu": [],
+      "openInNewTab": false
+    },
+    {
+      "link": "/play/",
+      "label": "Register",
+      "submenu": [],
+      "openInNewTab": false
+    },
+    {
+      "link": "/play/",
+      "label": "Bonuses",
+      "submenu": [],
+      "openInNewTab": false
+    },
+    {
+      "link": "/play/",
+      "label": "Withdrawal",
+      "submenu": [],
+      "openInNewTab": false
+    }
+  ],
+  "footer_menu": [
+    {
+      "link": "/play/",
+      "label": "Privacy Policy",
+      "submenu": [],
+      "openInNewTab": false
+    },
+    {
+      "link": "/play/",
+      "label": "Terms & Conditions",
+      "submenu": [],
+      "openInNewTab": false
+    },
+    {
+      "link": "/play/",
+      "label": " Responsible Gaming",
+      "submenu": [],
+      "openInNewTab": false
+    },
+    {
+      "link": "/play/",
+      "label": " About Us",
+      "submenu": [],
+      "openInNewTab": false
+    }
+  ],
+  "footer_images": [
+    {
+      "link": "/play/",
+      "image": "/uploads/29ad6e8e1fc087f97738038aa420f4ea.svg",
+      "image_alt": "18+"
+    },
+    {
+      "link": "https://www.gamcare.org.uk/",
+      "image": "/uploads/1bfe3b454cda5ccf482e868ba2dfdc15.webp",
+      "image_alt": "gamcare"
+    }
+  ],
   "Slots": [
     {
       "link": "/play/",
@@ -279,9 +340,9 @@
       "question": "What is the minimum withdrawal limit at VeryWell Casino?"
     }
   ],
-  "_generated_at": "2026-10-19T13:16:25.311Z",
+  "_generated_at": "2026-10-19T13:21:08.153Z",
   "_version": "1.0.0",
   "content_alt": "verywell register",
-  "_last_deploy": "2026-10-19T13:16:25.939Z",
-  "_deploy_trigger": "kjxg9f"
+  "_last_deploy": "2026-10-19T13:21:08.747Z",
+  "_deploy_trigger": "pwvls4"
 }
