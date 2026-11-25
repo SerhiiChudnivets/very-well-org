@@ -232,7 +232,7 @@
       "seoDescription": "Log in to Very Well Casino to explore thousands of slots, live dealer tables, generous welcome rewards, and 24/7 support. Instant access awaits.",
       "htmlHead": "<link rel=\"canonical\" href=\"https://very-well.org/en-gb2/login/\"/>\n<link rel=\"alternate\" href=\"https://very-well.org/login/\" hreflang=\"x-default\" />\n<link rel=\"alternate\" href=\"https://very-well.org/login/\" hreflang=\"en\" />\n<link rel=\"alternate\" href=\"https://very-well.org/en-gb2/login/\" hreflang=\"en-gb\" />\n<meta property=\"og:locale\" content=\"en_GB\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:title\" content=\"VeryWell Login – Enter Your Profile & Play Now\">\n<meta property=\"og:description\" content=\"Log in to Very Well Casino to explore thousands of slots, live dealer tables, generous welcome rewards, and 24/7 support. Instant access awaits.\">\n<meta property=\"og:url\" content=\"https://very-well.org/login/\">\n<meta property=\"og:site_name\" content= \"Very Well Casino\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"VeryWell Login – Enter Your Profile & Play Now\">\n<meta name=\"twitter:description\" content=\"Log in to Very Well Casino to explore thousands of slots, live dealer tables, generous welcome rewards, and 24/7 support. Instant access awaits.\">",
       "gptPrompt": "",
-      "heroTitle": "Very Well Casino Login: Fast, Secure Access to Your Account",
+      "heroTitle": "Very Well Casino Login",
       "heroSubtitle": "Access Your VeryWell Account",
       "heroBadge": "Fast & Secure Login",
       "ctaText": "Log In",
@@ -676,9 +676,9 @@
     }
   ],
   "url": "very-well.org",
-  "_generated_at": "2026-11-25T14:27:47.336Z",
+  "_generated_at": "2026-11-25T14:33:19.273Z",
   "_version": "1.0.0",
   "content_alt": "verywell register",
-  "_last_deploy": "2026-11-25T14:27:48.015Z",
-  "_deploy_trigger": "epvxqd"
+  "_last_deploy": "2026-11-25T14:33:19.930Z",
+  "_deploy_trigger": "ulgpjv"
 }
