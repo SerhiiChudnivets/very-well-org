@@ -237,7 +237,7 @@
       "heroBadge": "Fast & Secure Login",
       "ctaText": "Log In",
       "tagline": "Instant access to top games",
-      "heroImage": "/uploads/verywell-login.webp",
+      "heroImage": "/uploads/verywell-casino-login.webp",
       "template": "minimal",
       "isHomepage": false,
       "order": 0,
@@ -676,9 +676,9 @@
     }
   ],
   "url": "very-well.org",
-  "_generated_at": "2026-11-25T13:58:11.849Z",
+  "_generated_at": "2026-11-25T14:27:47.336Z",
   "_version": "1.0.0",
   "content_alt": "verywell register",
-  "_last_deploy": "2026-11-25T13:58:12.739Z",
-  "_deploy_trigger": "f1291u"
+  "_last_deploy": "2026-11-25T14:27:48.015Z",
+  "_deploy_trigger": "epvxqd"
 }
