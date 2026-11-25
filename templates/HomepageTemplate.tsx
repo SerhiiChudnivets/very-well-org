@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
+import { renderSeoMarkup } from './seoMarkup'
 
 interface MediaFile {
   id?: number
@@ -326,9 +327,10 @@ const styles = `
   .slots-section { padding: 4rem 0; background: var(--background); }
 
   .slot-background {
-    background: #00000070; display: flex; flex-direction: column;
-    align-items: center; justify-content: center; padding: 1rem; gap: 1rem; border-radius: 1rem;
+    width: 100%; height: 100%; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; padding: 1rem; gap: 1rem; text-align: center;
   }
+  .slot-play-btn { background: transparent; box-shadow: none; font-size: 2.5rem; line-height: 1; padding: 0; }
 
   .section-title {
     text-align: center; font-size: 2rem; font-weight: 700; color: var(--primary); margin-bottom: 2rem;
@@ -354,15 +356,15 @@ const styles = `
     position: relative; border-radius: 0.75rem; overflow: hidden; cursor: pointer; transition: transform 0.3s;
   }
   .slot-card:hover { transform: scale(1.05); }
-  .slot-image { width: 100%; aspect-ratio: 1; object-fit: cover; }
+  .slot-image { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; }
 
   .slot-overlay {
-    position: absolute; inset: 0; background: hsla(var(--background), 0.8);
+    position: absolute; inset: 0; background: rgba(0, 0, 0, 0.7);
     opacity: 0; transition: opacity 0.3s; display: flex; flex-direction: column;
     align-items: center; justify-content: center; gap: 0.75rem;
   }
   .slot-card:hover .slot-overlay { opacity: 1; }
-  .slot-name { color: var(--primary); font-weight: 700; font-size: 1.125rem; }
+  .slot-name { color: #fff; font-weight: 700; font-size: 1.125rem; }
 
   .bonuses-section { padding: 4rem 0; background: var(--secondary); }
   .bonuses-grid {
@@ -934,6 +936,19 @@ export default function HomepageTemplate({ page, site }: { page: PageData; site:
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {htmlHeadContent && renderHeadTags(htmlHeadContent)}
+        {renderSeoMarkup({
+          data,
+          isHomepage: Boolean(page.isHomepage),
+          slug: page.slug,
+          title: pageSeoTitle || page.title || site.site_name || site.name,
+          description: metaDescription,
+          pageName: page.title,
+          lang: page.lang || data.language_code,
+          image: page.heroImage || page.hero_image || data.main_background_img,
+          createdAt: page.createdAt,
+          updatedAt: page.updatedAt,
+          htmlHead: htmlHeadContent,
+        })}
       </Head>
       <style dangerouslySetInnerHTML={{ __html: dynamicStyles }} />
       <style dangerouslySetInnerHTML={{ __html: styles }} />
@@ -1092,7 +1107,7 @@ export default function HomepageTemplate({ page, site }: { page: PageData; site:
                         <div className="slot-overlay">
                           <div className="slot-background">
                             <span className="slot-name">{slotName}</span>
-                            <button className="btn btn-primary" onClick={() => slot.link && (window.location.href = slot.link)}>Play</button>
+                            <button className="btn btn-primary slot-play-btn" aria-label="Play" onClick={() => slot.link && (window.location.href = slot.link)}>▶️</button>
                           </div>
                         </div>
                       </div>
